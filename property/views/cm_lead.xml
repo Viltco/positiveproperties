@@ -66,9 +66,9 @@
             <xpath expr="//group[@name='lead_priority']/field[@name='tag_ids']" position="replace">
                 <field name="area"/>
             </xpath>
-            <xpath expr="//button[@name='163']" position="attributes">
+<!--             <xpath expr="//button[@name='163']" position="attributes">
                 <attribute name="attrs">{'invisible': [('button_show' ,'=', True)]}</attribute>
-            </xpath>
+            </xpath> -->
             <xpath expr="//group[@name='lead_priority']" position="after">
                 <notebook>
                     <page string="Basic Information">
